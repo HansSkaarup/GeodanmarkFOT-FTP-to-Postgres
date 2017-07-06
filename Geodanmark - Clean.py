@@ -10,7 +10,7 @@
 # Remember to set Username/Password/Areanumber/BBOX in lines 23-28 and
 # Set the Postgres connection settings and schema for OGR2OGR in line 86.
 # The schema must also be manually created from the
-#Credits:
+#Credits: Based on example scripts supplied by kortforsyningen; https://github.com/Kortforsyningen
 ########################################
 
 import ftplib
