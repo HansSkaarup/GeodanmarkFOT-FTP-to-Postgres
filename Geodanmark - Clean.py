@@ -76,9 +76,8 @@ for zip_filename in zip_files:
     zip_handler.close()
 
 #Finds all shapefiles in the unpack directory KORT10/ADM and GEO folders.
-#shp_dir = zip_dir + os.sep + file_name + os.sep + "FOT"
     shp_files = glob.glob(zip_dir + os.sep + file_name + os.sep + "FOT" + os.sep + "*" + os.sep + "*.shp")
-#shp_files.extend(glob.glob(shp_dir + os.sep + "GEO" + os.sep + "*" + os.sep + "*.shp"))
+
 
 #Prepare Shapefile Names
     file_name = []
